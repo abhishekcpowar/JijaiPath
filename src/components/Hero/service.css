@@ -1,0 +1,328 @@
+ .color-bg-1 .head-service-process,
+.item-financial-content.color-bg-1,
+.table thead .color-bg-1 {
+    background: #88C425 !important;
+}
+.head-service-process a i{
+    padding-bottom:10px;
+    font-size:35px;
+}
+.head-service-process a h3{
+    font-family:'Noto Sans', sans-serif;
+    font-size:25px;
+}
+
+.color-bg-1 .head-service-process:before {
+    border-left: 70px solid #88C425;
+}
+
+.color-bg-1 .divisor-service-process .circle-top {
+    border: solid 3px #88C425;
+}
+
+.color-bg-1 .info-service-process h3,
+.mini-box .color-bg-1 i,
+.color-dark-table.color-bg-1 {
+    color: #88C425 !important;
+}
+
+.color-bg-2 .head-service-process,
+.item-financial-content.color-bg-2,
+.table thead .color-bg-2 {
+    background: #15a4d3 !important;
+}
+
+.color-bg-2 .head-service-process:before {
+    border-left: 70px solid #15a4d3;
+}
+
+.color-bg-2 .divisor-service-process .circle-top {
+    border: solid 3px #15a4d3;
+}
+
+.color-bg-2 .info-service-process h3,
+.mini-box .color-bg-2 i,
+.color-dark-table.color-bg-2 {
+    color: #15a4d3;
+}
+
+.color-bg-3 .head-service-process,
+.item-financial-content.color-bg-3,
+.table thead .color-bg-3 {
+    background: #EB4436 !important;
+}
+
+.color-bg-3 .head-service-process:before {
+    border-left: 70px solid #EB4436;
+}
+
+.color-bg-3 .divisor-service-process .circle-top {
+    border: solid 3px #EB4436;
+}
+
+.color-bg-3 .info-service-process h3,
+.mini-box .color-bg-3 i,
+.color-dark-table.color-bg-3 {
+    color: #EB4436;
+}
+
+.color-bg-4 .head-service-process,
+.item-financial-content.color-bg-4,
+.table thead .color-bg-4 {
+    background: #34A853 !important;
+}
+
+.color-bg-4 .head-service-process:before {
+    border-left: 70px solid #34A853;
+}
+
+.color-bg-4 .divisor-service-process .circle-top {
+    border: solid 3px #34A853;
+}
+
+.color-bg-4 .info-service-process h3,
+.mini-box .color-bg-4 i,
+.color-dark-table.color-bg-4 {
+    color: #34A853;
+}
+
+.head-service-process.color-bg-2:before {
+    border-left: 70px solid #15a4d3 !important;
+}
+
+.item-service-process {
+    display: inline-block;
+    width: 40.2%;
+    margin-left: -100px;
+    text-align: center;
+    position: relative;
+}
+
+.item-service-process:first-child,
+.item-service-process:nth-child(4n+1) {
+    margin-left: -55px;
+}
+
+.head-service-process {
+    position: relative;
+    width: 65%;
+    min-height: 147px;
+    padding: 30px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.head-service-process i {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-left: 70px;
+}
+
+.head-service-process h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 70px;
+}
+
+.head-service-process:before {
+    content: '';
+    right: -70px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+    border-top: 75px solid transparent;
+    border-bottom: 72px solid transparent;
+}
+
+.head-service-process:after {
+    content: '';
+    left: 0px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    border-top: 75px solid transparent;
+    border-bottom: 72px solid transparent;
+    border-left: 70px solid #fff;
+}
+
+.divisor-service-process {
+    position: relative;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: 58%;
+    border: dashed 1px #777;
+    width: 1px;
+}
+
+.divisor-service-process .circle {
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    margin-left: -6px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: #777;
+}
+
+.divisor-service-process .circle-top {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    margin-left: -20px;
+    border-radius: 50%;
+    width: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    background: #fff;
+    color: #666;
+    line-height: 35px;
+}
+
+.info-service-process {
+    position: relative;
+    width: 80%;
+    padding: 10px 0 0 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.info-service-process p {
+    font-size:16px;
+    margin-bottom: 20px;
+}
+
+#footer .services-lines-container {
+    margin-top: -100px !important;
+}
+
+.services-lines {
+    overflow: auto;
+    margin-bottom: 20px !important;
+}
+
+.services-lines.no-margin {
+    margin-bottom: 0 !important;
+}
+
+#boxes-carousel li {
+    width: 100% !important;
+}
+
+.services-lines li {
+    width: 33.33%;
+    float: left;
+    background: #fff;
+    position: relative;
+}
+
+.services-lines li h5 {
+    padding: 35px 0 25px 0;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.services-lines li i {
+    font-size: 5rem;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #dedede !important;
+    opacity: 0.3;
+}
+
+.services-lines li .item-service-line {
+    padding: 0 0 45px 40px;
+    border-right: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+}
+
+.services-lines li:first-child {
+    border-left: 1px solid #f1f1f1;
+}
+
+.services-lines li .item-service-line a {
+    font-size: 1.1rem;
+}
+
+@media handheld, only screen and (max-width: 1500px) {}
+
+@media handheld, only screen and (max-width: 1280px) {
+
+    .item-service-process {
+        width: 41.7%;
+    }
+
+    .item-service-process:first-child,
+    .item-service-process:nth-child(3n+1) {
+        margin-left: -55px;
+    }
+}
+
+@media handheld, only screen and (max-width: 1240px) {}
+
+@media handheld, only screen and (max-width: 1200px) {}
+
+@media handheld, only screen and (max-width: 1024px) {}
+
+@media handheld, only screen and (max-width: 999px) {
+
+    .services-process {
+        margin-left: -55px;
+    }
+
+    .item-service-process {
+        display: block;
+        margin: 0 auto !important;
+        width: 50%;
+        min-width: 400px;
+    }
+
+    .divisor-service-process {
+        height: 70px;
+    }
+
+    .services-lines {
+        margin-bottom: 0 !important;
+    }
+
+    .services-lines li {
+        width: 100%;
+        max-width: 750px;
+        float: none;
+        border: solid 1px #f1f1f1 !important;
+        margin: 0 auto 20px auto;
+    }
+
+    .item-boxed-service-02 {
+        margin-top: 20px;
+    }
+}
+
+@media handheld, only screen and (max-width: 768px) {
+
+    .services-lines li {
+        max-width: 100%;
+    }
+}
+
+@media handheld, only screen and (max-width: 600px) {}
+
+@media handheld, only screen and (max-width: 480px) {
+    .head-service-process {
+        width: 60%;
+        min-height: 147px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {} 
+
+
+
+
