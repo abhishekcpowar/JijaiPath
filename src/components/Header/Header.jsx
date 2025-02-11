@@ -77,7 +77,8 @@ const Header = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="sm:mt-4 md:mt-0 flex flex-row gap-4 sm:gap-2 sm:flex-col items-center md:items-end">
+          <div className="sm:mt-4 md:mt-0 flex flex-row flex-wrap gap-4 sm:gap-2 sm:flex-col items-center md:items-end">
+            
             <Link
               to="tel:+919960227840"
               className="text-sm font-medium text-blue-900 flex items-center space-x-2"
