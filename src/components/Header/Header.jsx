@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FiMenu, FiChevronDown, FiChevronUp,FiPhone,FiMail } from "react-icons/fi";
-import logo from "../../assets/icons/logo.png";
+import logo from "../../assets/images/logo2.png";
 import { Link } from "react-router-dom";
 import { CiSquareMinus, CiSquarePlus } from "react-icons/ci";
 
@@ -63,7 +63,7 @@ const Header = () => {
       <div className="bg-[#FBF6EE] shadow-md">
         <div className="container mx-auto p-4 flex flex-col md:flex-row md:items-center md:justify-between">
           {/* Logo + Text Section */}
-          <div className="flex items-center space-x-4">
+          {/* <div className="flex items-center space-x-4">
             <img src={logo} alt="Logo" className="w-26 h-26 sm:w-28 sm:h-28" />
             <div className="hidden md:block border-l-2 border-black h-18"></div>
             <div className="text-start sm:text-center md:text-left">
@@ -74,7 +74,23 @@ const Header = () => {
                 को-ऑप. क्रेडिट सोसायटी लि. जत
               </p>
             </div>
-          </div>
+          </div> */}
+          <div className="flex items-center  space-x-4 p-4">
+      <img
+        src={logo}
+        alt="Logo"
+        className="w-18 h-18 sm:w-22 sm:h-22"
+      />
+      <div className="hidden sm:block border-l-2 border-black h-16"></div>
+      <div className="text-left">
+        <h1 className="text-4xl sm:text-5xl font-bold text-blue-900">
+          जिजाई अर्बन
+        </h1>
+        <p className="text-base sm:text-lg sm:mt-2 text-gray-700">
+          को-ऑप. क्रेडिट सोसायटी लि. जत
+        </p>
+      </div>
+    </div>
 
           {/* Contact Info */}
           <div className="sm:mt-4 md:mt-0 flex flex-row flex-wrap gap-4 sm:gap-2 sm:flex-col items-center md:items-end">

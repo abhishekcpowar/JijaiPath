@@ -170,7 +170,7 @@ const FixedDeposite = () => {
                   <li className="flex items-start space-x-2">
                     <IoIosCheckmarkCircle className="text-blue-500 mt-1 flex-shrink-0 w-5 h-5" />
                     <span className="text-lg">
-                      मासिक व्याज मिळण्यासाठी २ वर्षपुढे गुंतवणूक असावी
+                      मासिक व्याज मिळण्यासाठी १३ महिन्यांच्यापुढे गुंतवणूक असावी
                     </span>
                   </li>
                   <li className="flex items-start space-x-2">

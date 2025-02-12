@@ -73,7 +73,7 @@ const GoldLoan = () => {
                     संस्थेच्या जिजाई गोल्डन बॉण्ड योजनेत सहभागी होऊन जिंका सोन्याची नाणी व इतर विविध आकर्षक बक्षिसे.
                     </span>
                   </li> */}
-                  <li className="flex items-start space-x-2">
+                  {/* <li className="flex items-start space-x-2">
                     <IoIosCheckmarkCircle className="text-blue-500 mt-1 flex-shrink-0 w-5 h-5" />
                     <span className="text-lg">आवश्यक कागदपत्रे</span>
                   </li>
@@ -88,7 +88,7 @@ const GoldLoan = () => {
                     <li>15 चेक</li>
                     <li>2 फोटो</li>
                     <li>दोन जामीनदार व त्यांचे आधार कार्ड (झेरॉक्स) </li>
-                  </ul>
+                  </ul> */}
                   {/* <li className="flex items-start space-x-2">
                     <IoIosCheckmarkCircle className="text-blue-500 mt-1 flex-shrink-0 w-5 h-5" />
                     <span className="text-lg">

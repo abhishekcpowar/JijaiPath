@@ -1,7 +1,7 @@
 import React from "react";
 import about1 from "../../assets/images/about img.png";
-import logo from "../../assets/icons/logo.png";
-import finaltable from "../../assets/images/newtable.png";
+import logo from "../../assets/images/logo2.png";
+import finaltable from "../../assets/images/table3.png";
 import { Link } from "react-router-dom";
 
 const AboutView = () => {
@@ -45,22 +45,22 @@ const AboutView = () => {
           <div className="py-8 px-4 md:py-12 md:px-6 lg:px-12">
             <div className="mb-6">
               {/* Logo and Title Section */}
-              <div className="flex items-center justify-center space-x-4 mb-8">
-                <img
-                  src={logo}
-                  alt="Logo"
-                  className="w-26 h-26 sm:w-28 sm:h-28"
-                />
-                <div className="hidden md:block border-l-2 border-black h-18"></div>
-                <div className="text-start sm:text-center md:text-left">
-                  <h1 className="text-3xl sm:text-5xl font-bold text-blue-900">
-                    जिजाई अर्बन
-                  </h1>
-                  <p className="text-sm sm:text-lg sm:mt-2 text-gray-700">
-                    को-ऑप. क्रेडिट सोसायटी लि. जत
-                  </p>
-                </div>
-              </div>
+              <div className="flex items-center justify-center space-x-4 p-4">
+      <img
+        src={logo}
+        alt="Logo"
+        className="w-16 h-16 sm:w-20 sm:h-20"
+      />
+      <div className="hidden sm:block border-l-2 border-black h-16"></div>
+      <div className="text-left">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-blue-900">
+          जिजाई अर्बन
+        </h1>
+        <p className="text-xs sm:text-sm md:text-lg mt-1 sm:mt-2 text-gray-700">
+          को-ऑप. क्रेडिट सोसायटी लि. जत
+        </p>
+      </div>
+    </div>
 
               {/* Main Content Section */}
               <div className="space-y-6 text-justify px-4 sm:px-10 md:px-20">
@@ -84,7 +84,7 @@ const AboutView = () => {
                 <p className="text-gray-700 text-base md:text-lg leading-relaxed">
                   समाजातील प्रत्येक घटकाला आर्थिक स्वातंत्र्य मिळवून देण्याच्या
                   उद्देशाने सुरु करण्यात आलेली संस्था महाराष्ट्र शासन अंतर्गत
-                  रजिस्टर्ड आहे (रजि.क्र.एस.ए.एन/जी.ए.टी/आर.एस.आर./सी.आर./२१२५/२०२४ दि.०५/०२/२०२४) दिलेल्या सर्व
+                  रजिस्टर्ड आहे (रजि.क्र.एस.ए.एन/जे.ए.टी/आर.एस.आर./सी.आर./२१२५/२०२४ दि.०५/०२/२०२४) दिलेल्या सर्व
                   नियम व अटींचे येथे काटेकोरपणे पालन केले जाते. तुमच्या कष्टाच्या
                   कमाईला सुरक्षित ठेऊन त्यावर जास्तीत जास्त परतावा मिळण्याच्या
                   हेतूने संस्थेमध्ये अनेक लाभदायी ठेव योजना उपलब्ध आहेत.
@@ -94,7 +94,7 @@ const AboutView = () => {
                   ग्राहकांना तत्पर सेवा देण्याकरिता सर्व कर्मचारी अहोरात्र कार्यरत
                   आहे. तत्पर आणि ग्राहकाभिमुख सेवा देण्याकरिता आधुनिक
                   तंत्रज्ञानाचा योग्य वापर केला जातो. ग्राहकांना QR Code, NEFT/RTGS/IMPS इ.
-                  सेवा उपलब्ध आहेत. खालील यादिमधे आमचे आपुलकीने वागणारे संचालक मंडळ व कर्मचारी वृंद
+                  सेवा उपलब्ध आहेत. खालील यादीमधे आमचे आपुलकीने वागणारे संचालक मंडळ व कर्मचारी वृंद
                   आहेत.
                 </p>
               </div>

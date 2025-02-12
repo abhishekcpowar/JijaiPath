@@ -88,7 +88,7 @@ const DepositDouble = () => {
                   <li className="flex items-start space-x-2">
                     <IoIosCheckmarkCircle className="text-blue-500 mt-1 flex-shrink-0 w-5 h-5" />
                     <span className="text-lg">
-                    सेविंग ठेवीवर व्याजदर - 6% प्रति वर्ष 
+                    सेव्हिंग ठेवीवर व्याजदर - 6% प्रति वर्ष 
                     </span>
                   </li>
                   <li className="flex items-start space-x-2">
