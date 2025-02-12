@@ -1,7 +1,7 @@
 import React from "react";
 import about1 from "../../assets/images/about img.png";
 import logo from "../../assets/images/logo2.png";
-import finaltable from "../../assets/images/table3.png";
+import finaltable from "../../assets/images/table4.png";
 import { Link } from "react-router-dom";
 
 const AboutView = () => {

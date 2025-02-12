@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#FBF6EE] text-gray-700">
       {/* Main Footer Content */}
-      <div className="bg-red-500 text-white py-6">
+      <div className="bg-[#15A4D3] text-white py-6">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
           {/* Office Section */}
           <div>
@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
 
       {/* Horizontal Links Section */}
-      <div className="bg-[#e5f50c] text-center py-4 px-4 text-sm">
+      <div className="bg-[#FFB534] text-center py-4 px-4 text-sm">
         © जिजाई अर्बन को-ऑप. क्रेडिट सोसायटी लि. जत
       </div>
     </footer>
