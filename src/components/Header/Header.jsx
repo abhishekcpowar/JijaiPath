@@ -93,7 +93,7 @@ const Header = () => {
     </div>
 
           {/* Contact Info */}
-          <div className="sm:mt-4 md:mt-0 flex flex-row flex-wrap gap-4 sm:gap-2 sm:flex-col items-center md:items-end">
+          <div className="sm:mt-4 md:mt-0 flex flex-row  gap-4 sm:gap-2 sm:flex-col items-center md:items-end">
             
             <Link
               to="tel:+919960227840"
@@ -102,13 +102,13 @@ const Header = () => {
               <span>+91 9960227840</span>
               <FiPhone size={16} className="text-yellow-500" />
             </Link> 
-            <Link
+            {/* <Link
               to="tel:0234 4796395"
               className="text-sm  font-bold text-blue-900 font-[poppins] flex items-center space-x-2"
             >
               <span>0234 4796395</span>
               <FiPhone size={16} className="text-yellow-500" />
-            </Link>
+            </Link> */}
             <Link
               to="mailto:jijaijurbanpat@gmail.com"
               className="flex text-sm font-[poppins] font-bold text-blue-900 items-center space-x-2"
