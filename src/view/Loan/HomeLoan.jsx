@@ -2,7 +2,12 @@ import React from "react";
 import about1 from "../../assets/images/home-loan.jpg";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
 const HomeLoan = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+
   return (
     <div className="bg-gray-100">
       {/* Header Section */}
@@ -33,13 +38,44 @@ const HomeLoan = () => {
               <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold text-red-600">
               गृह कर्ज
               </h1>
-              <button className="px-5 py-2 sm:px-10 sm:py-4 bg-blue-800 hover:bg-blue-600 text-base text-white font-semibold">
-                Apply Now
-              </button>
+              <button
+  onClick={() => setIsModalOpen(true)}
+  className="px-5 py-2 sm:px-10 sm:py-4 bg-blue-800 hover:bg-blue-600 text-base text-white font-semibold"
+>
+  Apply Now
+</button>
             </div>
           </div>
         </div>
       </div>
+
+      {/* Modal */}
+{isModalOpen && (
+  <div className="fixed inset-0 bg-opacity-50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+    <div className="bg-white rounded-lg w-full max-w-3xl max-h-[90vh] overflow-hidden relative">
+      <div className="p-4 border-b flex justify-between items-center">
+        <h2 className="text-xl font-semibold">Apply for Home Loan</h2>
+        <button
+          onClick={() => setIsModalOpen(false)}
+          className="text-gray-500 hover:text-gray-700"
+        >
+          ✕
+        </button>
+      </div>
+      <div className="h-[70vh]">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSeKGZUJhyv0jzlyJBAUr7iN1kF6h9MFGPB6Ye8WlSmTzlLNTA/viewform?embedded=true"
+          className="w-full h-full"
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
+        >
+          Loading...
+        </iframe>
+      </div>
+    </div>
+  </div>
+)}
 
       {/* Content Section */}
       <div className="container mx-auto px-4 -mt-20 md:px-12 lg:px-24 py-8">

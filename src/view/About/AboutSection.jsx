@@ -51,7 +51,7 @@ const AboutView = () => {
   <div className="fixed inset-0 bg-opacity-50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
     <div className="bg-white rounded-lg w-full max-w-3xl max-h-[90vh] overflow-hidden relative">
       <div className="p-4 border-b flex justify-between items-center">
-        <h2 className="text-xl font-semibold">Apply for Gold Loan</h2>
+        <h2 className="text-xl font-semibold">Contact us</h2>
         <button
           onClick={() => setIsModalOpen(false)}
           className="text-gray-500 hover:text-gray-700"
