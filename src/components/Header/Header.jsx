@@ -102,13 +102,13 @@ const Header = () => {
               <span>+91 9960227840</span>
               <FiPhone size={16} className="text-yellow-500" />
             </Link> 
-            <Link
+            {/* <Link
               to="tel:0234 4796395"
               className="text-sm  font-bold text-blue-900 font-[poppins] flex items-center space-x-2"
             >
               <span>0234 4796395</span>
               <FiPhone size={16} className="text-yellow-500" />
-            </Link>
+            </Link> */}
             <Link
               to="mailto:jijaijurbanpat@gmail.com"
               className="flex text-sm font-[poppins] font-bold text-blue-900 items-center space-x-2"
