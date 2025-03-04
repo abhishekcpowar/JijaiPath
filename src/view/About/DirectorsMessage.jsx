@@ -1,5 +1,5 @@
 import React from "react";
-import about1 from "../../assets/images/pg10.jpg";
+import about1 from "../../assets/images/pg11.jpg";
 import logo from "../../assets/images/logo2.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";

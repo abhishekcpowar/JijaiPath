@@ -221,7 +221,7 @@
 
 
 import React, { useState, useEffect } from 'react';
-import popupImage from '../assets/images/popup.jpg';
+import popupImage from '../assets/images/popup2.jpg';
 
 const ImagePopupModal = () => {
   const [isOpen, setIsOpen] = useState(false);

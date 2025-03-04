@@ -1,5 +1,5 @@
 import React from "react";
-import about1 from "../../assets/images/about img.png";
+import about1 from "../../assets/images/aboutfinal.png";
 import logo from "../../assets/images/logo2.png";
 import finaltable from "../../assets/images/table4.png";
 import { Link } from "react-router-dom";
@@ -103,8 +103,7 @@ const AboutView = () => {
                 <p className="text-gray-700 text-base md:text-lg leading-relaxed">
                   जिजाई महिला बचत गटातुन जिजाई अर्बन को-ऑप. क्रेडिट सोसा. लि. जत
                   या पतसंस्थेची निर्मिती झाली. दि. 05/02/2024 रोजी संस्थापक
-                  श्री सुरेश एम. सायगांव साहेब व चेअरमनसो सौ सुप्रिया गणेश
-                  काळे (कोळी) यांनी 550000/- भांडवल आणि 500 सभासदांसह याची सुरुवात केली.
+                  श्री सुरेश एम. सायगांव साहेब, चेअरमनसो सौ सुप्रिया गणेश काळे (कोळी) व व्हा. चेअरमन सौ सावित्री सुरेश सायगांव यांनी 550000/- भांडवल आणि 500 सभासदांसह याची सुरुवात केली.
                   यशस्वी उद्योजक घडवणे महिला सशक्तिकरण करणे, महिला उद्योजक घडवणे
                   असे अनेक संकल्प ठेऊन आम्ही कार्यरत आहोत. आपली प्रगती व आर्थिक पत
                   वाढवण्यासाठी आम्ही सदैव आपल्या सेवेत आहोत. अतिशय छोट्या स्वरूपात
@@ -136,7 +135,7 @@ const AboutView = () => {
               </div>
 
               {/* Table Image Section */}
-              <div className="flex justify-right items-start mt-8">
+              <div className="flex justify-center items-start mt-8">
                 <img 
                   src={finaltable} 
                   alt="Table" 
